@@ -5,15 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+         header {
+            background-color: #ED1066;
+            padding: 40px;
+        }
+        h1 {
+            color: #FFF;
+        }
+        h2 {
+            color: #F57F1E;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        a {
+            font-family:Arial, Helvetica, sans-serif;
+            color: #F54240;
+            margin-left:80%;
+        }
+        img {
+            border: 100px solid #E4FF4D;
+            margin: -30px;
+        }
+        .content {
+            color: #3D2E1C;
+        }
+        article .content{
+            border: 1px dashed greenyellow;
+        }
+        #party {
+            background-color: #F57F1E;
+            font-style: italic;
+            padding: 20px;
+        }
+       
+    </style>
 </head>
 <body>
     <header>
         <h1>Learning HTML at Alchemy Code Lab</h1>
+    </header>
+    <main>
+        <hr>
         <a href="about.html">ABOUT</a><br>
         <a href="http://www.pdxcarrie.com">PDX CARRIE</a><br>
         <a href="#pssst">👀</a>
-    </header>
-    <main>
+        <hr>
         <h2>Night Two of Bootcamp Prep</h2>
         <p class="content">We are learning about HTML basics and settling into keyboard shortcuts. I'm adjusting to VS Code instead of Sublime Text and so far I like it. </p>
         <p class="content">Building things with code is:</p>
@@ -22,10 +58,16 @@
             <li>Super Duper</li>
             <li>A Party</li>
         </ul>
-        <p>I like to party. Do you like to party? These ladies know how to party!</p>
+        <p id="party">I like to party. Do you like to party? These ladies know how to party!</p>
         <img src="https://media.giphy.com/media/3rgXBQIDHkFNniTNRu/giphy.gif" alt="wheee old lady dance party" height="400" width="300">
         <br>
         <p id="pssst">See? Isn't this fun?</p>
+        <h2>Heeeeey</h2>
+            <article>
+                <p class="content">
+                        Man braid adaptogen banjo butcher. Tousled franzen brooklyn woke, hammock bushwick iPhone. Butcher chartreuse iPhone, VHS fam lyft kogi. Gastropub biodiesel snackwave, plaid fashion axe twee mixtape. Actually copper mug schlitz lyft crucifix heirloom synth, helvetica poutine farm-to-table gluten-free occupy craft beer before they sold out poke.
+                </p>
+            </article>
     </main>
     <footer>
         <hr>
